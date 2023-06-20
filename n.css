@@ -328,6 +328,7 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  flex-direction:column;
   
 }
 .vdosec{
