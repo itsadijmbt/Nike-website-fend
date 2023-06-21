@@ -24,6 +24,9 @@
   display: flex;
   justify-content: space-between;
 }
+.tags2{
+ display: none;
+}
 .tags-head{
   padding-bottom: 6px;
   background-color: var(--ppe);
@@ -179,7 +182,7 @@ margin-bottom: 20px;
  background-position: center;
  background-size: cover;
  width: 50%;
- margin-left: 30px;
+
   }
   
   .f2{
@@ -327,6 +330,8 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
   
 }
@@ -400,7 +405,7 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   color: rgb(55, 99, 220);
  }
 
- @media (max-width: 800px)
+ @media (max-width: 900px)
  {
   .tags{
     display: none;
@@ -430,6 +435,9 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   .f1,.f2{
     height: 40vh;
   }
+  .f1 button,.f2 button{
+    transform: translate(-40%,0%)
+  }
   .txt-p2{
     font-size: 50px;
   }
@@ -442,23 +450,70 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
     justify-content: space-around;
     align-items: center;
   }
+  .main-heading{
+    justify-content: space-between;
+  }
+
  
  }
 
+ @media (max-width:500px)
+ {
+  .custom-bar{
+    display: flex;
+      flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+ }
  @media (max-width: 500px){
 
+  .tags2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .tags2 h1{
+    font-size: 14px;
+  }
   .searchbarr{
     display: none;
   }
   .vpad{
-    height: 50vh;
+    margin-top: .5rem;
+    height: 35vh;
   }
   .f1,.f2{
-    height: 50vh;
-    width: 55%;
-    margin-left: 10px;
+    height: 22vh;
+    width: 100%;
+    
+  }
+  .f1 button,.f2 button{
+    transform: translate(-30%,-50%)
   }
   .buy-btn{
     margin-left: 32%;
   }
- }
+  .shop{
+    width: 100px;
+    text-align: center;
+  }
+  .but{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    height: 50vh;
+    justify-content: space-around;
+  }
+  
+
+}
