@@ -333,6 +333,8 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  flex-direction:column;
+  align-items:center;
   
 }
 .vdosec{
@@ -496,24 +498,4 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   .buy-btn{
     margin-left: 32%;
   }
-  .shop{
-    width: 100px;
-    text-align: center;
-  }
-  .but{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100px;
-  }
-  .image{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  
-    height: 50vh;
-    justify-content: space-around;
-  }
-  
-
-}
+ }
