@@ -175,7 +175,7 @@ margin-bottom: 20px;
 .f1{
   position: relative;
  background-image: url(lums.jpg);
- height: 70vh;
+ height: 50vh;
  background-position: center;
  background-size: cover;
  width: 50%;
@@ -186,7 +186,7 @@ margin-bottom: 20px;
     position: relative;
     margin-right: 30px;
     background-image: url(disc.jpg);
-    height: 70vh;
+    height: 50vh;
     background-position: center;
     background-size: cover;
     width: 50%;
@@ -336,6 +336,9 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   object-fit: cover;
   width: 330px;
   height: 400px;
+  padding-top: 20px;
+ 
+
 }
 
 .btn-for-menu{
@@ -379,7 +382,7 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   text-decoration: none;
  }
 .f1 button,.f2 button{
-  transform: translate(-40%,0%);
+  transform: translate(-50%,0%);
 }
  ul h15{
   font-weight: 700;
@@ -397,7 +400,7 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
   color: rgb(55, 99, 220);
  }
 
- @media (max-width: 900px)
+ @media (max-width: 800px)
  {
   .tags{
     display: none;
@@ -425,13 +428,19 @@ h9:hover,h8:hover,h10:hover ,h11:hover,h13:hover,h12:hover{
     letter-spacing: 4px;
   }
   .f1,.f2{
-    height: 50vh;
+    height: 40vh;
   }
   .txt-p2{
     font-size: 50px;
   }
   .buy-btn{
     margin-left: 40%;
+  }
+  .custom-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
  
  }
